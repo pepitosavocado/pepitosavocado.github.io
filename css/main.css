@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Century Gothic";
+}
+body {
+    padding-top: 54px;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media (min-width: 992px) {
+    body {
+    	padding-top: 56px;
+    }
+}
+.homepage {
+	padding-top: 15%;
+	padding-bottom: 15%;
+}
+.motto {
+	padding-top: -15%;
+	padding-bottom: 15%
