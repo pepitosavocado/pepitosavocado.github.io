@@ -1,9 +1,11 @@
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Century Gothic";
-}
+	font-family: "Maven Pro", sans-serif;
+}	
 body {
+    font-family: 'Maven Pro', sans-serif;
+    color: #ffffff;
     padding-top: 54px;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/homepage.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,10 +15,19 @@ body {
     	padding-top: 56px;
     }
 }
+.logo-main {
+    width: 40%;
+    height: 40%;
+}
 .homepage {
-	padding-top: 15%;
-	padding-bottom: 15%;
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
 .motto {
-	padding-top: -15%;
+    font-size: 150%;
+	padding-top: 5%;
 	padding-bottom: 15%
+}
+.menu {
+    background-color: #000000;
+}
