@@ -30,4 +30,15 @@ body {
 }
 .menu {
     background-color: #000000;
+    border-bottom: green 1px solid;
+}
+.pageheader {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 400%;
+    font-weight: 800;
+    text-align: left;
+}
+.separator {
+    border-color: white;
 }
